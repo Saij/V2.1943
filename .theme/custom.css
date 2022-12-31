@@ -5,17 +5,17 @@ including Voron Toolheads and red and black accent colors
 */
 
 :root {
-    --Primary:        #282a36;    /*Voron:Black*/
-    --Secondary:      #ff5555;    /*Voron:Red*/
-    --Green:          #50fa7b;    /*Voron:Green*/
-    --Red:            #ff5555;    /*Voron:Red*/
-    --Warnings:       #ffb86c;    /*Voron:Orange*/
-    --Text:           #f8f8f2;    /*Voron:Foreground*/
-    --DarkerText:     #f5f5f2;    /*Voron: DarkerText/
-    --Background:       #44475a;    /*Voron:CurrentLine*/
-    --DarkBackground: #282a36;    /*Voron:Background*/
-    --Toolbars:       #44475a;    /*Voron:CurrentLine*/
-    --Sheets:         #282a36;    /*Voron:Background*/
+    --Primary:        #282a36;    /*Voron: Black*/
+    --Secondary:      #ff5555;    /*Voron: Red*/
+    --Green:          #50fa7b;    /*Voron: Green*/
+    --Red:            #ff5555;    /*Voron: Red*/
+    --Warnings:       #ffb86c;    /*Voron: Orange*/
+    --Text:           #f8f8f2;    /*Voron: Foreground*/
+    --DarkerText:     #f5f5f2;    /*Voron: DarkerText*/
+    --Background:     #44475a;    /*Voron: CurrentLine*/
+    --DarkBackground: #282a36;    /*Voron: Background*/
+    --Toolbars:       #44475a;    /*Voron: CurrentLine*/
+    --Sheets:         #282a36;    /*Voron: Background*/
 }
 
 /* Change Colors of toolbar & warning */
@@ -60,19 +60,19 @@ including Voron Toolheads and red and black accent colors
 /* Change color of primary */ 
 
 .v-application .primary--text {
-    color: white!important;
+    color: white !important;
     caret-color: white !important;
 }
 .v-application .blue--text {
-    color: white!important;
+    color: white !important;
     caret-color: white !important;
 }
 
 /* application changes */
 
 .v-application .info {
-    background-color: black!important;
-    border-color: black!important;
+    background-color: black !important;
+    border-color: black !important;
 }
 .v-text-field.v-text-field--solo:not(.v-text-field--solo-flat)>.v-input__control>.v-input__slot:focus-within {
     border: thin solid var(--Primary) !important;
