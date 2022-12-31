@@ -4,6 +4,8 @@ This is the configuration for the Voron V2.4R2 300mm build with the serial numbe
 
 It is based on the configuration from [Alex Zellner](https://github.com/zellneralex/klipper_config) and customized.
 
+Max. Height: 270mm
+
 ### Features ###
 
 - [Voron TAP](https://github.com/VoronDesign/Voron-Tap)
