@@ -1,5 +1,11 @@
 #!/bin/bash
 
+current_date=$(date +"%y-$m-%d %T")
+comment="Autocommit from $current_date"
+if [ ! -z "$1" ]; then
+  comment="$1"
+fi
+
 #####################################################################
 ### Please set the paths accordingly. In case you don't have all  ###
 ### the listed folders, just keep that line commented out.        ###
@@ -46,8 +52,7 @@ push_config(){
   cd $config_folder
   git pull
   git add .
-  current_date=$(date +"%Y-%m-%d %T")
-  git commit -m "Autocommit from $current_date" -m "$m1" -m "$m2" -m "$m3"
+  git commit -m "$comment" -m "$m1" -m "$m2" -m "$m3"
   git push
 }
 
