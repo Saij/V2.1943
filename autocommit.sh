@@ -2,8 +2,8 @@
 
 current_date=$(date +"%y-$m-%d %T")
 comment="Autocommit from $current_date"
-if [ ! -z "$1" ]; then
-  comment="$1"
+if [ ! -z "$@" ]; then
+  comment="$@"
 fi
 
 #####################################################################
