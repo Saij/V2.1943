@@ -2,6 +2,8 @@
 
 This is the configuration for the Voron V2.4R2 300mm build with the serial number V2.1943.
 
+It is based on the configuration from [Alex Zellner](https://github.com/zellneralex/klipper_config) and customized.
+
 ### Features ###
 
 - [Voron TAP](https://github.com/VoronDesign/Voron-Tap)
