@@ -1,0 +1,22 @@
+- GIT backup
+- Input Shaper
+- Rework LCD menu
+  - Move directly to KlipperScreen?
+- Add camera
+- Brush Mod
+- Quick-Panel-Release
+- One-Front-Panel (Magnetic?)
+- Display off does not work?
+  - Handle state setting and display better for all light macros
+  - Sometimes state does say off but light is still on
+- Add [verify_heater] to Config
+- Optimize Filament holder and path
+  - Shortening PTFE Tube?
+- Add extra chamber temp sensor
+- Enable Sonar Log
+- Write README
+- Get correct max. height
+- HartK Toolboard switch
+  - Hotend Connector is better? 
+- Revo Nozzle Holder for skirt
+- Front Skirt Power Switch
