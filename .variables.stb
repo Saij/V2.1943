@@ -1,3 +1,3 @@
 [Variables]
-print_stats = {'time': {'total': 139793, 'service': 139793, 'filter': 6091}, 'filament': 185957.17459038738}
+print_stats = {'time': {'total': 154164, 'service': 154164, 'filter': 20462}, 'filament': 215142.17689026878}
 
