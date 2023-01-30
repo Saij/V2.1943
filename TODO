@@ -1,19 +1,12 @@
-- One-Front-Panel (Magnetic?)
+- Brush Mod
+- Remove "Lock M106"
+- Add camera
+- Install/Configure KlipperScreen
 - PRINT_AR when starting bed mesh
+- Cleanup Messages from Macros
 - Split PARK Macro into shorthand macros
 - Input Shaper
-- Rework LCD menu
-  - Move directly to KlipperScreen?
-- Add camera
-- Brush Mod
-- Quick-Panel-Release
-- Display off does not work?
-  - Handle state setting and display better for all light macros
-  - Sometimes state does say off but light is still on
-- Optimize Filament holder and path
+- Optimize Filament holder and path  
   - Shortening PTFE Tube?
 - Add extra chamber temp sensor
-- HartK Toolboard switch
-  - Hotend Connector is better? 
 - Revo Nozzle Holder for skirt
-- Front Skirt Power Switch
